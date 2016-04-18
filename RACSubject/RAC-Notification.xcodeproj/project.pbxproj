@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605A82031CC47D24002A4151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82021CC47D24002A4151 /* main.m */; };
+		605A82061CC47D24002A4151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82051CC47D24002A4151 /* AppDelegate.m */; };
+		605A82091CC47D24002A4151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82081CC47D24002A4151 /* ViewController.m */; };
+		605A820F1CC47D24002A4151 /* RAC_Notification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 605A820D1CC47D24002A4151 /* RAC_Notification.xcdatamodeld */; };
+		605A82111CC47D24002A4151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605A82101CC47D24002A4151 /* Assets.xcassets */; };
+		605A82141CC47D24002A4151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A82121CC47D24002A4151 /* LaunchScreen.storyboard */; };
+		605A821F1CC47D24002A4151 /* RAC_NotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A821E1CC47D24002A4151 /* RAC_NotificationTests.m */; };
+		605A822A1CC47D24002A4151 /* RAC_NotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82291CC47D24002A4151 /* RAC_NotificationUITests.m */; };
+		605A82391CC47DBF002A4151 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82381CC47DBF002A4151 /* TwoViewController.m */; };
+		AFF151AAD91E8873F54BB5BB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB2825BDC8962CA53EB65D1 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605A821B1CC47D24002A4151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605A81F61CC47D24002A4151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605A81FD1CC47D24002A4151;
+			remoteInfo = "RAC-Notification";
+		};
+		605A82261CC47D24002A4151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605A81F61CC47D24002A4151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605A81FD1CC47D24002A4151;
+			remoteInfo = "RAC-Notification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB2825BDC8962CA53EB65D1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D53D480768CB8BA82F9E6B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		605A81FE1CC47D24002A4151 /* RAC-Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC-Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A82021CC47D24002A4151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605A82041CC47D24002A4151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605A82051CC47D24002A4151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605A82071CC47D24002A4151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605A82081CC47D24002A4151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605A820E1CC47D24002A4151 /* RAC_Notification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RAC_Notification.xcdatamodel; sourceTree = "<group>"; };
+		605A82101CC47D24002A4151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605A82131CC47D24002A4151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605A82151CC47D24002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A821A1CC47D24002A4151 /* RAC-NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC-NotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A821E1CC47D24002A4151 /* RAC_NotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_NotificationTests.m; sourceTree = "<group>"; };
+		605A82201CC47D24002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A82251CC47D24002A4151 /* RAC-NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC-NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A82291CC47D24002A4151 /* RAC_NotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_NotificationUITests.m; sourceTree = "<group>"; };
+		605A822B1CC47D24002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A82371CC47DBF002A4151 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		605A82381CC47DBF002A4151 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		CBEF2B2FDB11D521FCD02AA9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605A81FB1CC47D24002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF151AAD91E8873F54BB5BB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82171CC47D24002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82221CC47D24002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E08AD81176AFAF817D72C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB2825BDC8962CA53EB65D1 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605A81F51CC47D24002A4151 = {
+			isa = PBXGroup;
+			children = (
+				605A82001CC47D24002A4151 /* RAC-Notification */,
+				605A821D1CC47D24002A4151 /* RAC-NotificationTests */,
+				605A82281CC47D24002A4151 /* RAC-NotificationUITests */,
+				605A81FF1CC47D24002A4151 /* Products */,
+				D250451E3C33DE3F2CE4A2C7 /* Pods */,
+				0E08AD81176AFAF817D72C6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605A81FF1CC47D24002A4151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605A81FE1CC47D24002A4151 /* RAC-Notification.app */,
+				605A821A1CC47D24002A4151 /* RAC-NotificationTests.xctest */,
+				605A82251CC47D24002A4151 /* RAC-NotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605A82001CC47D24002A4151 /* RAC-Notification */ = {
+			isa = PBXGroup;
+			children = (
+				605A82041CC47D24002A4151 /* AppDelegate.h */,
+				605A82051CC47D24002A4151 /* AppDelegate.m */,
+				605A82071CC47D24002A4151 /* ViewController.h */,
+				605A82081CC47D24002A4151 /* ViewController.m */,
+				605A82371CC47DBF002A4151 /* TwoViewController.h */,
+				605A82381CC47DBF002A4151 /* TwoViewController.m */,
+				605A82101CC47D24002A4151 /* Assets.xcassets */,
+				605A82121CC47D24002A4151 /* LaunchScreen.storyboard */,
+				605A82151CC47D24002A4151 /* Info.plist */,
+				605A820D1CC47D24002A4151 /* RAC_Notification.xcdatamodeld */,
+				605A82011CC47D24002A4151 /* Supporting Files */,
+			);
+			path = "RAC-Notification";
+			sourceTree = "<group>";
+		};
+		605A82011CC47D24002A4151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605A82021CC47D24002A4151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		605A821D1CC47D24002A4151 /* RAC-NotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				605A821E1CC47D24002A4151 /* RAC_NotificationTests.m */,
+				605A82201CC47D24002A4151 /* Info.plist */,
+			);
+			path = "RAC-NotificationTests";
+			sourceTree = "<group>";
+		};
+		605A82281CC47D24002A4151 /* RAC-NotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				605A82291CC47D24002A4151 /* RAC_NotificationUITests.m */,
+				605A822B1CC47D24002A4151 /* Info.plist */,
+			);
+			path = "RAC-NotificationUITests";
+			sourceTree = "<group>";
+		};
+		D250451E3C33DE3F2CE4A2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF2B2FDB11D521FCD02AA9 /* Pods.debug.xcconfig */,
+				44D53D480768CB8BA82F9E6B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605A81FD1CC47D24002A4151 /* RAC-Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A822E1CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-Notification" */;
+			buildPhases = (
+				7427EBF05763FE0E0710DD82 /* Check Pods Manifest.lock */,
+				605A81FA1CC47D24002A4151 /* Sources */,
+				605A81FB1CC47D24002A4151 /* Frameworks */,
+				605A81FC1CC47D24002A4151 /* Resources */,
+				E3E7ACF192F6C33D81FAC848 /* Embed Pods Frameworks */,
+				6D9F4FA4C9D506477CE778F7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC-Notification";
+			productName = "RAC-Notification";
+			productReference = 605A81FE1CC47D24002A4151 /* RAC-Notification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605A82191CC47D24002A4151 /* RAC-NotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A82311CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-NotificationTests" */;
+			buildPhases = (
+				605A82161CC47D24002A4151 /* Sources */,
+				605A82171CC47D24002A4151 /* Frameworks */,
+				605A82181CC47D24002A4151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605A821C1CC47D24002A4151 /* PBXTargetDependency */,
+			);
+			name = "RAC-NotificationTests";
+			productName = "RAC-NotificationTests";
+			productReference = 605A821A1CC47D24002A4151 /* RAC-NotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605A82241CC47D24002A4151 /* RAC-NotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A82341CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-NotificationUITests" */;
+			buildPhases = (
+				605A82211CC47D24002A4151 /* Sources */,
+				605A82221CC47D24002A4151 /* Frameworks */,
+				605A82231CC47D24002A4151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605A82271CC47D24002A4151 /* PBXTargetDependency */,
+			);
+			name = "RAC-NotificationUITests";
+			productName = "RAC-NotificationUITests";
+			productReference = 605A82251CC47D24002A4151 /* RAC-NotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605A81F61CC47D24002A4151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mr.wang;
+				TargetAttributes = {
+					605A81FD1CC47D24002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					605A82191CC47D24002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 605A81FD1CC47D24002A4151;
+					};
+					605A82241CC47D24002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 605A81FD1CC47D24002A4151;
+					};
+				};
+			};
+			buildConfigurationList = 605A81F91CC47D24002A4151 /* Build configuration list for PBXProject "RAC-Notification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605A81F51CC47D24002A4151;
+			productRefGroup = 605A81FF1CC47D24002A4151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605A81FD1CC47D24002A4151 /* RAC-Notification */,
+				605A82191CC47D24002A4151 /* RAC-NotificationTests */,
+				605A82241CC47D24002A4151 /* RAC-NotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605A81FC1CC47D24002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82141CC47D24002A4151 /* LaunchScreen.storyboard in Resources */,
+				605A82111CC47D24002A4151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82181CC47D24002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82231CC47D24002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D9F4FA4C9D506477CE778F7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7427EBF05763FE0E0710DD82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E7ACF192F6C33D81FAC848 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605A81FA1CC47D24002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82091CC47D24002A4151 /* ViewController.m in Sources */,
+				605A820F1CC47D24002A4151 /* RAC_Notification.xcdatamodeld in Sources */,
+				605A82061CC47D24002A4151 /* AppDelegate.m in Sources */,
+				605A82391CC47DBF002A4151 /* TwoViewController.m in Sources */,
+				605A82031CC47D24002A4151 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82161CC47D24002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A821F1CC47D24002A4151 /* RAC_NotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82211CC47D24002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A822A1CC47D24002A4151 /* RAC_NotificationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605A821C1CC47D24002A4151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605A81FD1CC47D24002A4151 /* RAC-Notification */;
+			targetProxy = 605A821B1CC47D24002A4151 /* PBXContainerItemProxy */;
+		};
+		605A82271CC47D24002A4151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605A81FD1CC47D24002A4151 /* RAC-Notification */;
+			targetProxy = 605A82261CC47D24002A4151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605A82121CC47D24002A4151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605A82131CC47D24002A4151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605A822C1CC47D24002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605A822D1CC47D24002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605A822F1CC47D24002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEF2B2FDB11D521FCD02AA9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC-Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		605A82301CC47D24002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D53D480768CB8BA82F9E6B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC-Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		605A82321CC47D24002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC-NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC-Notification.app/RAC-Notification";
+			};
+			name = Debug;
+		};
+		605A82331CC47D24002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC-NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC-Notification.app/RAC-Notification";
+			};
+			name = Release;
+		};
+		605A82351CC47D24002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC-NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC-Notification";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		605A82361CC47D24002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC-NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC-Notification";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605A81F91CC47D24002A4151 /* Build configuration list for PBXProject "RAC-Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A822C1CC47D24002A4151 /* Debug */,
+				605A822D1CC47D24002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A822E1CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A822F1CC47D24002A4151 /* Debug */,
+				605A82301CC47D24002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A82311CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-NotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A82321CC47D24002A4151 /* Debug */,
+				605A82331CC47D24002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A82341CC47D24002A4151 /* Build configuration list for PBXNativeTarget "RAC-NotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A82351CC47D24002A4151 /* Debug */,
+				605A82361CC47D24002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		605A820D1CC47D24002A4151 /* RAC_Notification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				605A820E1CC47D24002A4151 /* RAC_Notification.xcdatamodel */,
+			);
+			currentVersion = 605A820E1CC47D24002A4151 /* RAC_Notification.xcdatamodel */;
+			path = RAC_Notification.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 605A81F61CC47D24002A4151 /* Project object */;
+}
