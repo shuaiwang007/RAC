@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605A82CE1CC4B17A002A4151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82CD1CC4B17A002A4151 /* main.m */; };
+		605A82D11CC4B17A002A4151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82D01CC4B17A002A4151 /* AppDelegate.m */; };
+		605A82D41CC4B17A002A4151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82D31CC4B17A002A4151 /* ViewController.m */; };
+		605A82D71CC4B17A002A4151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A82D51CC4B17A002A4151 /* Main.storyboard */; };
+		605A82DA1CC4B17A002A4151 /* RAC___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 605A82D81CC4B17A002A4151 /* RAC___.xcdatamodeld */; };
+		605A82DC1CC4B17A002A4151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605A82DB1CC4B17A002A4151 /* Assets.xcassets */; };
+		605A82DF1CC4B17A002A4151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605A82DD1CC4B17A002A4151 /* LaunchScreen.storyboard */; };
+		605A82EA1CC4B17B002A4151 /* RAC___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82E91CC4B17B002A4151 /* RAC___Tests.m */; };
+		605A82F51CC4B17B002A4151 /* RAC___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A82F41CC4B17B002A4151 /* RAC___UITests.m */; };
+		849A0AF3E313EDB7F9DFF54B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091B95320CF9162ED12E6767 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		605A82E61CC4B17B002A4151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605A82C11CC4B17A002A4151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605A82C81CC4B17A002A4151;
+			remoteInfo = "RAC常用宏";
+		};
+		605A82F11CC4B17B002A4151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 605A82C11CC4B17A002A4151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 605A82C81CC4B17A002A4151;
+			remoteInfo = "RAC常用宏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091B95320CF9162ED12E6767 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8F4390F4E1DE1C52DCF3E1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		605A82C91CC4B17A002A4151 /* RAC常用宏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC常用宏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A82CD1CC4B17A002A4151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		605A82CF1CC4B17A002A4151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		605A82D01CC4B17A002A4151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		605A82D21CC4B17A002A4151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		605A82D31CC4B17A002A4151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605A82D61CC4B17A002A4151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605A82D91CC4B17A002A4151 /* RAC___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RAC___.xcdatamodel"; sourceTree = "<group>"; };
+		605A82DB1CC4B17A002A4151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605A82DE1CC4B17A002A4151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605A82E01CC4B17A002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A82E51CC4B17B002A4151 /* RAC常用宏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC常用宏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A82E91CC4B17B002A4151 /* RAC___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___Tests.m"; sourceTree = "<group>"; };
+		605A82EB1CC4B17B002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A82F01CC4B17B002A4151 /* RAC常用宏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC常用宏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A82F41CC4B17B002A4151 /* RAC___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___UITests.m"; sourceTree = "<group>"; };
+		605A82F61CC4B17B002A4151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72875928A17EB9E5CFDE6683 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605A82C61CC4B17A002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A0AF3E313EDB7F9DFF54B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82E21CC4B17B002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82ED1CC4B17B002A4151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B48218B3DEF71EC89DD409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091B95320CF9162ED12E6767 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		605A82C01CC4B17A002A4151 = {
+			isa = PBXGroup;
+			children = (
+				605A82CB1CC4B17A002A4151 /* RAC常用宏 */,
+				605A82E81CC4B17B002A4151 /* RAC常用宏Tests */,
+				605A82F31CC4B17B002A4151 /* RAC常用宏UITests */,
+				605A82CA1CC4B17A002A4151 /* Products */,
+				7028E74E3D24601109E4DC2E /* Pods */,
+				23B48218B3DEF71EC89DD409 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605A82CA1CC4B17A002A4151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605A82C91CC4B17A002A4151 /* RAC常用宏.app */,
+				605A82E51CC4B17B002A4151 /* RAC常用宏Tests.xctest */,
+				605A82F01CC4B17B002A4151 /* RAC常用宏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605A82CB1CC4B17A002A4151 /* RAC常用宏 */ = {
+			isa = PBXGroup;
+			children = (
+				605A82CF1CC4B17A002A4151 /* AppDelegate.h */,
+				605A82D01CC4B17A002A4151 /* AppDelegate.m */,
+				605A82D21CC4B17A002A4151 /* ViewController.h */,
+				605A82D31CC4B17A002A4151 /* ViewController.m */,
+				605A82D51CC4B17A002A4151 /* Main.storyboard */,
+				605A82DB1CC4B17A002A4151 /* Assets.xcassets */,
+				605A82DD1CC4B17A002A4151 /* LaunchScreen.storyboard */,
+				605A82E01CC4B17A002A4151 /* Info.plist */,
+				605A82D81CC4B17A002A4151 /* RAC___.xcdatamodeld */,
+				605A82CC1CC4B17A002A4151 /* Supporting Files */,
+			);
+			path = "RAC常用宏";
+			sourceTree = "<group>";
+		};
+		605A82CC1CC4B17A002A4151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				605A82CD1CC4B17A002A4151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		605A82E81CC4B17B002A4151 /* RAC常用宏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				605A82E91CC4B17B002A4151 /* RAC___Tests.m */,
+				605A82EB1CC4B17B002A4151 /* Info.plist */,
+			);
+			path = "RAC常用宏Tests";
+			sourceTree = "<group>";
+		};
+		605A82F31CC4B17B002A4151 /* RAC常用宏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				605A82F41CC4B17B002A4151 /* RAC___UITests.m */,
+				605A82F61CC4B17B002A4151 /* Info.plist */,
+			);
+			path = "RAC常用宏UITests";
+			sourceTree = "<group>";
+		};
+		7028E74E3D24601109E4DC2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72875928A17EB9E5CFDE6683 /* Pods.debug.xcconfig */,
+				5A8F4390F4E1DE1C52DCF3E1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605A82C81CC4B17A002A4151 /* RAC常用宏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A82F91CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏" */;
+			buildPhases = (
+				4DF131A36242818C0CE92B72 /* Check Pods Manifest.lock */,
+				605A82C51CC4B17A002A4151 /* Sources */,
+				605A82C61CC4B17A002A4151 /* Frameworks */,
+				605A82C71CC4B17A002A4151 /* Resources */,
+				27AF1B0828372F8211D2B7AE /* Embed Pods Frameworks */,
+				D120804237D5B113776388D1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC常用宏";
+			productName = "RAC常用宏";
+			productReference = 605A82C91CC4B17A002A4151 /* RAC常用宏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		605A82E41CC4B17B002A4151 /* RAC常用宏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A82FC1CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏Tests" */;
+			buildPhases = (
+				605A82E11CC4B17B002A4151 /* Sources */,
+				605A82E21CC4B17B002A4151 /* Frameworks */,
+				605A82E31CC4B17B002A4151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605A82E71CC4B17B002A4151 /* PBXTargetDependency */,
+			);
+			name = "RAC常用宏Tests";
+			productName = "RAC常用宏Tests";
+			productReference = 605A82E51CC4B17B002A4151 /* RAC常用宏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		605A82EF1CC4B17B002A4151 /* RAC常用宏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605A82FF1CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏UITests" */;
+			buildPhases = (
+				605A82EC1CC4B17B002A4151 /* Sources */,
+				605A82ED1CC4B17B002A4151 /* Frameworks */,
+				605A82EE1CC4B17B002A4151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				605A82F21CC4B17B002A4151 /* PBXTargetDependency */,
+			);
+			name = "RAC常用宏UITests";
+			productName = "RAC常用宏UITests";
+			productReference = 605A82F01CC4B17B002A4151 /* RAC常用宏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605A82C11CC4B17A002A4151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mr.wang;
+				TargetAttributes = {
+					605A82C81CC4B17A002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					605A82E41CC4B17B002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 605A82C81CC4B17A002A4151;
+					};
+					605A82EF1CC4B17B002A4151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 605A82C81CC4B17A002A4151;
+					};
+				};
+			};
+			buildConfigurationList = 605A82C41CC4B17A002A4151 /* Build configuration list for PBXProject "RAC常用宏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605A82C01CC4B17A002A4151;
+			productRefGroup = 605A82CA1CC4B17A002A4151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605A82C81CC4B17A002A4151 /* RAC常用宏 */,
+				605A82E41CC4B17B002A4151 /* RAC常用宏Tests */,
+				605A82EF1CC4B17B002A4151 /* RAC常用宏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605A82C71CC4B17A002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82DF1CC4B17A002A4151 /* LaunchScreen.storyboard in Resources */,
+				605A82DC1CC4B17A002A4151 /* Assets.xcassets in Resources */,
+				605A82D71CC4B17A002A4151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82E31CC4B17B002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82EE1CC4B17B002A4151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27AF1B0828372F8211D2B7AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DF131A36242818C0CE92B72 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D120804237D5B113776388D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605A82C51CC4B17A002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82D41CC4B17A002A4151 /* ViewController.m in Sources */,
+				605A82D11CC4B17A002A4151 /* AppDelegate.m in Sources */,
+				605A82DA1CC4B17A002A4151 /* RAC___.xcdatamodeld in Sources */,
+				605A82CE1CC4B17A002A4151 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82E11CC4B17B002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82EA1CC4B17B002A4151 /* RAC___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		605A82EC1CC4B17B002A4151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605A82F51CC4B17B002A4151 /* RAC___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		605A82E71CC4B17B002A4151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605A82C81CC4B17A002A4151 /* RAC常用宏 */;
+			targetProxy = 605A82E61CC4B17B002A4151 /* PBXContainerItemProxy */;
+		};
+		605A82F21CC4B17B002A4151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 605A82C81CC4B17A002A4151 /* RAC常用宏 */;
+			targetProxy = 605A82F11CC4B17B002A4151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		605A82D51CC4B17A002A4151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605A82D61CC4B17A002A4151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605A82DD1CC4B17A002A4151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605A82DE1CC4B17A002A4151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605A82F71CC4B17B002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		605A82F81CC4B17B002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605A82FA1CC4B17B002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72875928A17EB9E5CFDE6683 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC常用宏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		605A82FB1CC4B17B002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F4390F4E1DE1C52DCF3E1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC常用宏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		605A82FD1CC4B17B002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC常用宏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC常用宏.app/RAC常用宏";
+			};
+			name = Debug;
+		};
+		605A82FE1CC4B17B002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC常用宏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC常用宏.app/RAC常用宏";
+			};
+			name = Release;
+		};
+		605A83001CC4B17B002A4151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC常用宏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC常用宏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		605A83011CC4B17B002A4151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC常用宏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mr.wang.RAC---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC常用宏";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605A82C41CC4B17A002A4151 /* Build configuration list for PBXProject "RAC常用宏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A82F71CC4B17B002A4151 /* Debug */,
+				605A82F81CC4B17B002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A82F91CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A82FA1CC4B17B002A4151 /* Debug */,
+				605A82FB1CC4B17B002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A82FC1CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A82FD1CC4B17B002A4151 /* Debug */,
+				605A82FE1CC4B17B002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605A82FF1CC4B17B002A4151 /* Build configuration list for PBXNativeTarget "RAC常用宏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605A83001CC4B17B002A4151 /* Debug */,
+				605A83011CC4B17B002A4151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		605A82D81CC4B17A002A4151 /* RAC___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				605A82D91CC4B17A002A4151 /* RAC___.xcdatamodel */,
+			);
+			currentVersion = 605A82D91CC4B17A002A4151 /* RAC___.xcdatamodel */;
+			path = "RAC___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 605A82C11CC4B17A002A4151 /* Project object */;
+}
