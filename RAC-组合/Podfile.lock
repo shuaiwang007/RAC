@@ -1,0 +1,22 @@
+PODS:
+  - ReactiveCocoa (4.0.2-alpha-1):
+    - ReactiveCocoa/UI (= 4.0.2-alpha-1)
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/Core (4.0.2-alpha-1):
+    - ReactiveCocoa/no-arc
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/no-arc (4.0.2-alpha-1):
+    - Result (~> 0.6-beta.1)
+  - ReactiveCocoa/UI (4.0.2-alpha-1):
+    - ReactiveCocoa/Core
+    - Result (~> 0.6-beta.1)
+  - Result (0.6-beta.1)
+
+DEPENDENCIES:
+  - ReactiveCocoa (~> 4.0.2-alpha-1)
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 652cf90e5de65708e7e2111f77405756da21aabe
+  Result: af24e3e57ab81005ec4221a53fd36dc1e7a52869
+
+COCOAPODS: 0.38.2
