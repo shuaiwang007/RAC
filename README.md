@@ -2,7 +2,6 @@
 [博客地址](http://shuaiwang007.github.io/2016/04/21/RAC-MVVM在实际项目中的用法/)
 
 ### RAC+MVVM在实际项目中用法
-[下载demo](https://github.com/shuaiwang007/RAC.git)
 #### RAC在iOS的实际开发中确实是一件有力的武器，此文将从以下几方面讲解
 >
 * RACSignal
@@ -726,7 +725,7 @@ NSLog(@"%@",x);
 ```
 #### RAC+MVVM-网络请求
 **请看demo**
-[下载demo](https://github.com/shuaiwang007/RAC.git)
+
 
 
 
